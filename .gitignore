@@ -1,3 +1,4 @@
 # if a file has already been tracked and you want git ignore to untrack it you need to run
 # git rm --cached "fullfilepath"
 geckodriver.log
+__pycache__
