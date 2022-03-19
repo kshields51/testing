@@ -1,0 +1,2 @@
+This project differs from his because I need to prefix my imports with video_code where he does not
+for reference look at acceptance-testing --> video_code --> tests --> acceptance --> steps --> content.py
