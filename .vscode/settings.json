@@ -1,3 +1,7 @@
+//UPDATE 
+//After all that nothing from that youtube video matters. I don’t need to edit my path or anything all I need to do is have my python.testing.unittestArgs have the correct path which for some reason (despite the documentation above) is
+//I know this works because I cloned the repo onto my surface which does not know a darn thing about all of the environment variables and it worked right out of the box
+
 {
     "python.testing.unittestArgs": [
         "-v",
