@@ -1,2 +1,9 @@
 This project differs from his because I need to prefix my imports with video_code where he does not
 for reference look at acceptance-testing --> video_code --> tests --> acceptance --> steps --> content.py
+
+actually if you take off test and just have it
+acceptance.page_model.home_page it will work
+
+maybe the relative import must always start one folder deeper than what is designated as the source.
+
+i'm at the blog page step
