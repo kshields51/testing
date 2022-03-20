@@ -6,7 +6,7 @@ import time
 
 class GoogleSearch(unittest.TestCase):
     
-    def setUp(self):
+    def setup(self):
         self.driver = webdriver.Firefox(executable_path=r"C:\Users\kshie\Documents\testing\selenium-drivers\geckodriver.exe") # needed to download the geckodriver
         '''This timeout is used to specify the amount of time the driver should wait while searching for an element if it is not immediately present. https://www.browserstack.com/guide/understanding-selenium-timeouts'''
         self.driver.implicitly_wait(30)
